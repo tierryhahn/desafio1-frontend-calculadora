@@ -4,12 +4,13 @@ import CalculatorForm from './components/CalculatorForm';
 
 function App() {
   return (
-    <div className="App">
+    <main className='App-header'>
       <section>
         <CalculatorForm/>
         <AsideMDR/>
       </section>
-    </div>
+
+    </main>
   );
 }
 

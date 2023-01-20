@@ -4,6 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { ApiCalculatorContext } from "../../providers/apiProvider";
 import api from "../../services/api"
 import * as yup from "yup";
+import "./index.css";
 
 function CalculatorForm() {
     const {setCalculatorApi} = useContext(ApiCalculatorContext)
@@ -43,7 +44,7 @@ function CalculatorForm() {
 
     return (
         <div className="containerCalculator">
-            <h2>Simule sua antecipação</h2>
+            <h2 className="h2Calculator">Simule sua antecipação</h2>
             <form onSubmit={handleSubmit(onSubmitApi)}>
                 <div className="containerForm">
                     <label>Informe o valor da venda*</label>
@@ -55,7 +56,7 @@ function CalculatorForm() {
                     <label>Em quantas parcelas*</label>
                     <p className="Perrors">{errors.amount?.message}</p>
                     <input type="text" name="installments" {...register("installments")}/>
-                    <p>Máximo de 12 parcelas</p>
+                    <p className="pMax12">Máximo de 12 parcelas</p>
                 </div>
 
                 <div className="containerForm">

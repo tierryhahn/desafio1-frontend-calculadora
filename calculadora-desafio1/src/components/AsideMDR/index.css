@@ -1,0 +1,36 @@
+.containerAside {
+    background-color: #f8f8f8;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #3f76bc;
+    margin-bottom: 0px;
+}
+
+.calculoAside {
+    color: #9dc3f5;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.amanhaAside{
+    color: #9dc3f5;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+hr {
+    margin-top: 7px;
+    margin-right: 32px;
+    background-color: #cad4df;
+    width: 205px;
+    height: 1px;
+    border-style: none;
+}

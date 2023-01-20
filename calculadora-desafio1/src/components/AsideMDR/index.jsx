@@ -1,5 +1,6 @@
 import { ApiCalculatorContext } from "../../providers/apiProvider";
 import { useContext } from "react";
+import "./index.css";
 
 function AsideMDR() {
     const {calculatorApi} = useContext(ApiCalculatorContext)
@@ -9,7 +10,7 @@ function AsideMDR() {
             <h2>VOCÊ RECEBERÁ:</h2>
             <hr/>
 
-            <p className="calculoAside">
+            <p className="amanhaAside">
                 Amanhã: <strong>R${calculatorApi["1"].toFixed(2)}</strong>
             </p>
 
