@@ -1,4 +1,4 @@
-desafio1-frontend-calculadora
+Desafio Frontend Calculadora:
 
 Uma calculadora de antecipação de transação, para que os clientes consigam saber quais valores receberão caso optem por antecipar o recebimento.
 
